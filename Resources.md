@@ -1,0 +1,6 @@
+- [Doc](https://docs.google.com/spreadsheets/d/1GubHSQMFNcXvHVfusHl-fUubLz9r6QgkyExROS9nZ-U/htmlview)
+- [Udemy practice test](https://www.udemy.com/course/ec-council-ceh/learn/quiz/5216120/test#reviews)
+- [info](https://cert.eccouncil.org/certified-ethical-hacker.html)
+- [Examtopics](https://www.itexams.com/info/312-50v12)
+- [cehtest](https://cehtest.org/index.html)
+- [cagy](https://cagy.org/ceh/)
