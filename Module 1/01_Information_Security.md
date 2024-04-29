@@ -37,4 +37,4 @@ recipient cannot deny having received the message.
 Information warfare (IW) (as different from cyber warfare that attacks computers, software, and command control systems) is a concept involving the battlespace use and management of 
 information and communication technology (ICT) in pursuit of a competitive advantage over an opponent.
 
-Examples: [information warfare](https://nordvpn.com/blog/information-warfare/#:~:text=What%20are%20the%20types%20of%20information%20warfare%3F%201,...%206%20Hacker%20warfare%20...%207%20Cyberwarfare%20)
+Examples: [Information warfare](https://nordvpn.com/blog/information-warfare/#:~:text=What%20are%20the%20types%20of%20information%20warfare%3F%201,...%206%20Hacker%20warfare%20...%207%20Cyberwarfare%20)
