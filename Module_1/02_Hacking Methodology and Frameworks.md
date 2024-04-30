@@ -82,7 +82,7 @@ Adversarial Tactics, Techniques, and Common Knowledge or MITRE ATT&C is a glo
 Link: [MITRE ATT&CK](https://attack.mitre.org/) 
 
 # Diamond Model of Intrusion Analysis 
-!(Module_1/Img/Diamond_Model.png)
+![Diamond Model](Module_1/Img/Diamond_Model.png)
 The diamond model of intrusion analysis is a model used by information security professionals to authenticate and track cyber threats.
 
 The Diamond event consists of four basic features: 
