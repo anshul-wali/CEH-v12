@@ -60,6 +60,7 @@ An adversary can use the command-line interface to interact with the target syst
 The attackers use command and control servers to maintain communication with compromised systems via encrypted network sessions. In many cases, Command and control server traffic indicates that the attacker has gained access to the network and is planning to install additional tools. The adversary can steal data, erase data, and launch new attacks using the C&C server encrypted channel. This behavior can be detected by monitoring network traffic for outbound connection attempts and unauthorized open ports. Finding IP addresses and domains that are known to be C&C server traffic and blacklisting them is one approach to guard against the C2 server.
 ## DNS tunneling
 The domain name system (DNS) resolves domain names into IP addresses, which are then used by browsers to load web pages. An attacker can use DNS tunneling to obfuscate malicious traffic into the legitimate traffic through common protocols that would not necessarily cause alarm. using the DNS tunneling an adversary can also communicate with the command and control server and perform data exfiltration.
+
 Link: [What Is DNS Tunneling? - Palo Alto Networks](https://www.paloaltonetworks.com/cyberpedia/what-is-dns-tunneling)
 
 ## Data staging
