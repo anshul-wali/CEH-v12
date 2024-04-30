@@ -53,7 +53,6 @@ Adversary behavioral identification is all about predicting attacks. It involves
 Once an attacker gains a foothold inside the network, they may begin enumerating other systems, hosts, processes, and programs that are running, maybe in search of another system of interest. This behavior is alarming, and security professionals should look for strange batch files, unexpected commands executed in PowerShell and bash scripts, and by using packet capture tools like Wireshark and Tcpdump.
 
 ## PowerShell
-
 Windows PowerShell enables IT professionals to manage and control the Windows operating system and apps. An attacker can use PowerShell as a tool for data exfiltration, system exploration, and connecting to external systems. Entire harmful frameworks have been built around PowerShell, due to its ability to configure and work with networks. To identify this behavior, security experts can check PowerShell transcript logs or Windows Event logs and look for PowerShell usage by someone other than administrators.
 ## CLI/Terminal
 An adversary can use the command-line interface to interact with the target system, view files, edit file content, connect to a remote system, and download and install malicious malware. Security professionals should analyze log files of process IDs with strange names and malicious files to determine an adversary's actions. for example, a process started from PowerShell with the execution policy bypassed should be monitored.
