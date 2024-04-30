@@ -34,7 +34,7 @@ networks, and communication channels.
 - Reconnaissance
     - Harvesting email addresses, conference information, etc.
 - Weaponization
-    - Coupling exploit with backdoor into deliverable payload
+    - Coupling exploit with backdoor into deliverable payload.
 - Delivery
     - Delivering weaponized bundle to the victim via email, web, USB, etc.
 - Exploitation
