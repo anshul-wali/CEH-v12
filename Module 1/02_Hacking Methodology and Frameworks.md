@@ -30,6 +30,7 @@ networks, and communication channels.
     - Hiding files
 - Covering tracks
     - Clearing logs
+      
 # Cyber Kill Chain
 - Reconnaissance
     - Harvesting email addresses, conference information, etc.
