@@ -72,7 +72,9 @@ IoC's are divided into four categories:
 - Network IoCs
 - Host-Based IoCs
 - Behavioral IoCs
+  
 Link: [Types Explained](https://www.sentinelone.com/cybersecurity-101/what-are-indicators-of-compromise-iocs-a-comprehensive-guide/)
+
 # MITRE ATT&CK
 Adversarial Tactics, Techniques, and Common Knowledge or MITRE ATT&C is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.
 
