@@ -90,4 +90,6 @@ The Diamond event consists of four basic features:
 - Capability
 - Infrastructure
 
+Link: [Diamond Model](https://www.eccouncil.org/cybersecurity-exchange/ethical-hacking/diamond-model-intrusion-analysis/)
+
 ![Diamond Model](./Img/Diamond_Model.png)
