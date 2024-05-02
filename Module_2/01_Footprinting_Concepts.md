@@ -43,7 +43,11 @@ the target organization.
 The footprinting methodology is a procedure for collecting information about a target
 organization from all available sources. Attackers collect this information from publicly
 accessible sources such as search engines, social networking sites, Whois databases, and so
-on. The diagram given below illustrates
-!
+on. The diagram given below illustrates.
+
+![Footprinting_Techniques](./Img/Footprinting_Techniques.png)
+
+
+
 
 
