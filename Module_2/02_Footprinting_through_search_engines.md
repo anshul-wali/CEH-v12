@@ -8,4 +8,8 @@ Popular Search Operators
 - site:
 
 # Google Hacking Database(GHDB)
+The Google Hacking Database (GHDB) is an authoritative
+source for querying the ever- widening reach of the Google search engine.
+
+Link: https://www.exploit-db.com
 
