@@ -13,3 +13,9 @@ source for querying the ever- widening reach of the Google search engine.
 
 Link: https://www.exploit-db.com
 
+# Other Techniques
+- Reverse Image Search
+- FTP Search Engiines
+- loT Search Engine
+- Meta Search Engine
+- Google Advanced Search
