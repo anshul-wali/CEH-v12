@@ -10,6 +10,7 @@ located with the help of search engines such as Google and Bing.
 
 ## Tools to Search Company's Sub-domains
 - netcraft: attackers can use Netcraft to obtain al the sub- domains related to the target domain.
+  
    Link:(https://www.netcraft.com/)
 - sublister: Sublist3r is a Python script designed to enumerate the subdomains of websites using OSINT. It enables you to enumerate subdomains across multiple sources at once.
 - Pentest-Tools Find Subdomains:Pentest-Tools Find Subdomains is an online tool used for discovering subdomains and their IP addresses, including network information and their HTTP servers..
@@ -26,7 +27,7 @@ theHarvester -d microsoft -1 200 -b linkedin
 ```
 -d specifies the domain or company name to search, - 1 specifies the number of results to be retrieved, and b- specifies the data source as Linkedin
 
-# the dark web
+# The Dark Web
 - At tackers use de ep and dark web searching tools, such as Tor Browser and ExoneraTor, to gather confidential information
 about the target, including credit card details, passport information, identification card details, medical records, social media accounts, Social Security Numbers (SSNs), etc.
 
