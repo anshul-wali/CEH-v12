@@ -16,7 +16,7 @@ located with the help of search engines such as Google and Bing.
 - Pentest-Tools Find Subdomains:Pentest-Tools Find Subdomains is an online tool used for discovering subdomains and their IP addresses, including network information and their HTTP servers..
 
 # People Search 
-## spokeo
+## Spokeo
 Attackers can use the Spokeo people search online service to search for people belonging to the target organization. Using this service, attackers obtain information such as phone numbers, email addresses, address history, age, date of birth, family members, social profiles, and court records.
 
 ## theHarvester
