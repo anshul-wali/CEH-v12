@@ -5,7 +5,7 @@ Website footprinting
 - Examining HTML source code 
 - Examining cookies.
 
-Link: [https://portswigger.net/burp
+Link: [](https://portswigger.net/burp)
 
 # Web Spiders
 A Web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web and that is typically operated by search engines for the purpose of Web indexing (web spidering).
@@ -20,7 +20,7 @@ User walks through the application and uses a spider to collect and analyze find
 Tools: Burp Suite and WebScarab
 
 ## Web Data Extractor 
- It extracts targeted contact data (email, phone, and fax) from the website, extracts the URL and meta tags (title, description, keyword) for website promotion, searches directory creation, performs web research, and so on.
+It extracts targeted contact data (email, phone, and fax) from the website, extracts the URL and meta tags (title, description, keyword) for website promotion, searches directory creation, performs web research, and so on.
 
 # Mirroring Entire Website
 Website mirroring is the process of creating a replica or clone of the original website. Tools used are HTTrack Web Site Copier and Cyotek WebCopy
@@ -30,6 +30,7 @@ HTTrack is an offline browser utility. It downloads a website from the Internet 
 # Extracting Information from archive.org
 Archive is an Internet Archive Wayback Machine that explores archived versions of websites. Such exploration allows an attacker to gather information on an organization's web pages since
 its creation. 
+
 Website: https://archive.org
 
 # Other Techniques
