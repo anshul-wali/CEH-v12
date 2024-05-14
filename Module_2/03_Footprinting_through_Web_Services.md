@@ -51,5 +51,6 @@ Competitive intelligence gathering is the process of identifying, gathering, ana
 - Geographical Location
   - Google Earth for location.
   - Google finance for market value of a company's shares, company profile, competitor details, stock exchange rates
-  - **Business profile** sites such as opencorporates, Crunchbase, and corporationwiki to gather important information about the target organizations, such as their location, addresses, contact information (such as phone numbers, email addresses), employee database, department names, type of service provided, and type of industry.
+  - **Business profile** sites such as opencorporates, Crunchbase, and corporationwiki to gather important information about the target organizations,
+    such as their location, addresses, contact information (such as phone numbers, email addresses), employee database, department names, type of service provided, and type of industry.
   - Recon-ng to discover public source-code repositories.
