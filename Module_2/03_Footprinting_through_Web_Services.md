@@ -30,6 +30,12 @@ theHarvester -d microsoft -1 200 -b linkedin
 - At tackers use de ep and dark web searching tools, such as Tor Browser and ExoneraTor, to gather confidential information
 about the target, including credit card details, passport information, identification card details, medical records, social media accounts, Social Security Numbers (SSNs), etc.
 
+## Tor Browser
+Tor, short for The Onion Router, is free and open-source software for enabling anonymous communication. It directs Internet traffic through a free, worldwide,
+volunteer overlay network, consisting of more than seven thousand relays, to conceal a user's location and usage from anyone performing network surveillance or
+traffic analysis.
+Links: [](https://en.wikipedia.org/wiki/Tor_(network))
+
 # Determining the Operating System
 The technique of obtaining information about the target network operating system is called OS fingerprinting.
 
@@ -41,11 +47,7 @@ The technique of obtaining information about the target network operating system
 
 Competitive intelligence gathering is the process of identifying, gathering, analyzing, verifying, and using information about your competitors from resources, such as the Internet
 
-## Tor Browser
-Tor, short for The Onion Router, is free and open-source software for enabling anonymous communication. It directs Internet traffic through a free, worldwide,
-volunteer overlay network, consisting of more than seven thousand relays, to conceal a user's location and usage from anyone performing network surveillance or
-traffic analysis.
-Links: [](https://en.wikipedia.org/wiki/Tor_(network))
+
 
 
 
