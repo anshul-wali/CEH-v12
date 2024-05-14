@@ -8,13 +8,13 @@ useful information to an attacker. It may contain information such as organizati
 services and products, and contact information. The target organization's external URL can be 
 located with the help of search engines such as Google and Bing.
 
-# Tools to Search Company's Sub-domains
+## Tools to Search Company's Sub-domains
 - netcraft: attackers can use Netcraft to obtain al the sub- domains related to the target domain.
    Link:(https://www.netcraft.com/)
 - sublister: Sublist3r is a Python script designed to enumerate the subdomains of websites using OSINT. It enables you to enumerate subdomains across multiple sources at once.
 - Pentest-Tools Find Subdomains:Pentest-Tools Find Subdomains is an online tool used for discovering subdomains and their IP addresses, including network information and their HTTP servers..
 
-# people search 
+# People Search 
 ## spokeo
 Attackers can use the Spokeo people search online service to search for people belonging to the target organization. Using this service, attackers obtain information such as phone numbers, email addresses, address history, age, date of birth, family members, social profiles, and court records.
 
