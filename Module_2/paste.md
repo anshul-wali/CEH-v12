@@ -6,6 +6,11 @@
 
 
 ## Collecting Information from Email Head
+Sender's mail server
+Date and time of receipt by the originator's email servers Authentication system used by the sender's mail server
+Data and time of sending the message
+Aunique number assigned by mx.google.com to identify the message Sender's full n a m e
+Sender's IP address and address from which the message was sent
 
 ## tools
 - Infoga
