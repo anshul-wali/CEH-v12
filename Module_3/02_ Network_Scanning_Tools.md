@@ -1,4 +1,4 @@
-# Section 2: Network_Scanning_Tool
+# Section 2: Network Scanning Tools
 # Nmap
 Network Mapper is a security scanner for network exploration and hacking. It allows you to discover hosts, ports, and services on a computer network, thus creating a "map" of the network.
 GUI: Zenmap
