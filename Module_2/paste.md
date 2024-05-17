@@ -1,5 +1,5 @@
 
-# section 11: Footprinting Tool
+# Section 11: Footprinting Tool
 # Maltego 
 Maltego can be used to determine the relationships and real world links between people, groups of people, organizations, websites, Internet infrastructure, documents, etc.
 
