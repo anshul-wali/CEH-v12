@@ -33,7 +33,7 @@ IP protocol ping is the latest host discovery option that sends PI ping packets 
 
 # Ping Sweep Tools
 ## Angry PI Scanner
-Angry IP scanner is an IP address and port scanner. It can scan IP addresses in any range as well as any of their ports. It pings each IP address to check if any of these addresses are live. Then,  it optionally resolves hostnames, determines the MAC address, scans ports, etc.
+Angry IP scanner is an IP address and port scanner. It can scan IP addresses in any range as well as any of their ports. It pings each IP address to check if any of these addresses are live. Then,  it optionally resolves hostnames, determines the MAC address, scans ports, etc. 
 
 Link: [https://www.angryip.org](https://www.angryip.org/)
 
