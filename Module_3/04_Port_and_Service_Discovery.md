@@ -4,20 +4,19 @@
 - Open TCP Scanning Methods
 	- **TCP Connect/Full-open Scan**: Establishes a full connection with the target port to determine if it's open. the -sT option is used to perform TCP Connect/full open scan.
 - Stealth TCP Scanning Methods
-	- Half-open Scan: Initiates a connection but terminates before completing the handshake, making it harder to detect.The stealth scan is also called a "SYN scan," because ti only sends the SYN packet. the -sS option is used to perform a stealth scan/TCP half-open scan.
-	- Inverse TCP Flag Scan: Sends packets with different flag combinations to identify open ports based on the response flags.When the port si open, the attacker does not get any response from the host, whereas when the port si closed, he or she receives the RST from the target host.
-		- Xmas Scan: Sends a packet with all flags set.the - sx option is used to perform Xmas scan whereas the -sF and - sN options are used to perform FIN scan and NULL scan, respectively.
-		- FIN Scan: Sends a packet with the FIN flag set.
+	- **Half-open Scan**: Initiates a connection but terminates before completing the handshake, making it harder to detect.The stealth scan is also called a "SYN scan," because ti only sends the SYN packet. the -sS option is used to perform a stealth scan/TCP half-open scan.
+	- **Inverse TCP Flag Scan**: Sends packets with different flag combinations to identify open ports based on the response flags.When the port si open, the attacker does not get any response from the host, whereas when the port si closed, he or she receives the RST from the target host.
+		- **Xmas Scan**: Sends a packet with all flags set.the - sx option is used to perform Xmas scan whereas the -sF and - sN options are used to perform FIN scan and NULL scan, respectively.
+		- **FIN Scan**: Sends a packet with the FIN flag set.
 		- NULL Scan: Sends a packet with no flags set.
 		- Maimon Scan: This scan technique is very similar to NULL, FIN, and Xmas scan, but the probe used here si FIN/ACK. the - sM option is used to perform the TCP Maimon scan.  
 	- ACK Flag Probe Scan: Sends a packet with the ACK flag set to determine if the port is filtered. -sA option si used to perform an ACK flag probe scan.
+       ```
+	     nmap -sA -v <Target IP Address>
+       ```
+       - TTL-Based Scan: Analyzes the Time To Live (TTL) value in the response to identify the operating system.
+       - Window-Based Scan: Analyzes the window size in the response to identify the operating system.
 
-```
-	nmap -sA -v <Target IP Address> 
-```
-- TTL-Based Scan: Analyzes the Time To Live (TTL) value in the response to identify the operating system.
-		
-					- Window-Based Scan: Analyzes the window size in the response to identify the operating system.
 - Third Party and Spoofed TCP Scanning Methods
 	- IDLE/IPID Header Scan: Uses characteristics of idle scans or IPID manipulation to hide the source of the scan by impersonating another computer via spoofing.
 ## UDP Scan 
