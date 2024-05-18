@@ -11,12 +11,13 @@
 		- NULL Scan: Sends a packet with no flags set.
 		- Maimon Scan: This scan technique is very similar to NULL, FIN, and Xmas scan, but the probe used here si FIN/ACK. the - sM option is used to perform the TCP Maimon scan.  
 	- ACK Flag Probe Scan: Sends a packet with the ACK flag set to determine if the port is filtered. -sA option si used to perform an ACK flag probe scan.
+
 ```
 	nmap -sA -v <Target IP Address> 
 ```
-		- TTL-Based Scan: Analyzes the Time To Live (TTL) value in the response to identify the operating system.
+- TTL-Based Scan: Analyzes the Time To Live (TTL) value in the response to identify the operating system.
 		
-		- Window-Based Scan: Analyzes the window size in the response to identify the operating system.
+					- Window-Based Scan: Analyzes the window size in the response to identify the operating system.
 - Third Party and Spoofed TCP Scanning Methods
 	- IDLE/IPID Header Scan: Uses characteristics of idle scans or IPID manipulation to hide the source of the scan by impersonating another computer via spoofing.
 ## UDP Scan 
