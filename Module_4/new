@@ -24,3 +24,53 @@ The major MIBs are
 • MIB_II.MIB: Manages TCP/IP-based Internet using a simple architecture and system
 • WINS.MIB: For the Windows Internet Name Service (WINS)
 
+# SmpWalk 
+is a command-line tool that allows attackers to scan numerous SNMP nodes instantly and identify a set of variables that are available for
+accessing the target network. Using this tool, attackers target the root node so that information from all the sub-nodes such as routers and switches can be fetched.
+
+snmpwalk -v1 -c public <Target IP Address>
+The above command alows attackers to view al the OlDs, variables, and other associated information.
+
+# Enumerating SNMP using Nmap
+Attackers use the smp-processes Nmap Scripting Engine (NSE) script against an SNMP remote server to retrieve information related to the hosted SNMP services.
+nmap -sU -p 161 --script=snmp-processes <Target IP Address>
+The above Nmap command, when executed, retrieves a list of al the running SNMP processes along with the associated ports on the target host.
+
+
+# SNMP enumeration tools
+# smp-check 
+smp-check allows the enumeration of SNMP devices and places the output in a human-readable and user-friendly format.Its goal is to automate the process of gathering information on any device with SNMP support (Windows, Unix-like, network appliances, printers, etc.)
+
+Syntax - snmp-check 10.10.1.22
+Source: https://www.nothink.org
+
+# SoftPerfect Network Scanner
+SNC discovers  shared folders and retrieves practically any information about network devices via  WMI, SNMP, HTTP, SSH, and PowerShell
+
+Source: https://www.softperfect.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
