@@ -30,11 +30,11 @@ Attackers use Nmap to enumerate information from the target SMTP server.
 The framework contains an SMTP enumeration module that allows attackers to connect to the target SMTP server and enumerate usernames using predefined wordlists.
 
 # SMTP Enumeration Tools
-# NetScanTools Pro
+## NetScanTools Pro
 NetScanTools Pro's SMTP Email Generator tool tests the process of sending an email message through an SMTP server. Attackers use NetScanTools Pro for SMTP enumeration and extract al the email header parameters, including confirm/urgent flags. Attackers can also record the email session in a log file and then view the communications between
 NetScanTools Pro and the SMTP server in the log file.
 
-# smtp-user-enum
+## smtp-user-enum
 - smtp-user-enum is a tool for enumerating OS-level user accounts on Solaris via the SMTP service (sendmail).
 - Enumeration si performed by inspecting the responses to VRFY, EXPN, and RCPT TO commands.
 
