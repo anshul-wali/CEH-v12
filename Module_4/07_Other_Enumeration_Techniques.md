@@ -1,21 +1,29 @@
 
 # IPsec Enumeration
-- IPsec uses Encapsulation Security Payload (ESP), Authentication Header (AH), and Internet Key Exchange (IKE) to secure communication between virtual private network (VPN) end points
-- Most IPsec based VPNs use Internet Security Association and Key Management Protocol
-(ISAKMP), a part of IKE, to establish, negotiate, modify, and delete Security Associations (SA) and
-cryptographic keys in a VPN environment
-• Asimple scanning for ISAKMP at UDP port 500 can indicate the presence of a VPN gateway
-• Attackers can probe further using a tool, such as ike-scan, to enumerate sensitive information, includingencryption and hashingalgorithm, authentication type, key distribution algorithm, and SA LifeDuration
+- IPsec uses Encapsulation Security Payload (ESP), Authentication Header (AH), and Internet Key Exchange (IKE) to secure communication between virtual private
+  network (VPN) end points
+- Most IPsec based VPNs use Internet Security Association and Key Management Protocol (ISAKMP), a part of IKE, to establish, negotiate, modify, and delete
+  Security Associations (SA) and cryptographic keys in a VPN environment
+- A simple scanning for ISAKMP at UDP port 500 can indicate the presence of a VPN gateway
+- Attackers can probe further using a tool, such as ike-scan, to enumerate sensitive information, includingencryption and hashingalgorithm, authentication type,
+  key distribution algorithm, and SA LifeDuration
 
 # VoIP
 - VoIP uses Session Initiation Protocol (SIP) protocol to enable voice and video calls over an IP network
 - SIP service generally uses UDP/TCP ports 2000, 2001, 5060, and 5061
-- VolP enumeration provides sensitive information, such as VolP gateway/servers, IP-PBX systems, client software (softphones)/VolP phones, User-agent IP addresses, and user extensions
-- This information can be used to launch various Volp attacks, such as Denial-of-Service (DoS), Session Hijacking, Caller ID spoofing, Eavesdropping, Spamming over Internet Telephony (SPIT), and VolP phishing (Vishing)
+- VolP enumeration provides sensitive information, such as VolP gateway/servers, IP-PBX systems, client software (softphones)/VolP phones, User-agent IP
+  addresses, and user extensions
+- This information can be used to launch various Volp attacks, such as Denial-of-Service (DoS), Session Hijacking, Caller ID spoofing, Eavesdropping, Spamming
+  over Internet Telephony (SPIT), and VolP phishing (Vishing)
 
+Link: [Read More](https://www.exploit-db.com/docs/english/18136-paper-enumerating-and-breaking-voip.pdf)
+
+# RPC Enumerating
 - RPC allows clients and servers to communicate in distributed client/server programs.
 - The portmapper service listens on TCP and UDP port 111 to detect the endpoints and present clients, along with details of listening RPC services.
 - Enumerating RPC endpoints enables attackers to identify any vulnerable services on these service ports.
+
+
 
 # Unix/Linux User Enumeration
 - Unix/Linux user enumeration provides a list of users along with details such as the username, host name, and start date and time of each session.
