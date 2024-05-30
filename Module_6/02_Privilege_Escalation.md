@@ -1,1 +1,18 @@
-
+- Privilege Escalation by Exploiting Misconfigured Services
+	- Unquoted Service Paths
+	- Service Object Permissions
+	- Unattended Installs
+		- Unattended install details such as configuration settings used during the installation process are stored in Unattend.xml file
+- Pivoting and Relaying to Hack External Machines
+- Privilege Escalation Using Misconfigured Network File System (NFS)
+	- A misconfigured NFS paves the way for attackers to gain root-level access through a regular user account or low-privileged user
+	- By exploiting NFS vulnerabilities, attackers can sniff sensitive data and files passing through the intranet and launch further attacks
+- Privilege Escalation Using Windows Sticky Keys
+	- In Windows, the sticky keys feature allows users to use a combination of keys including Ctrl, Alt, and Shift instead of pressing three keys at a time
+	- After gaining access to a remote system, attackers must copy the file sethc.exe at the location &systemroot% \system32 to a different location. Next, they must copy cmd.exe to the same location and pressing the Shift key five times in rapid succession once the system has been restarted to open a Command Prompt window  with system-level acces
+- Privilege Escalation by Bypassing User Account Control (UAC)
+	- When attackers fail to escalate privileges using a simple payload, they attempt to evade Windows security features such as UAC and to gain system-level access
+	- In a Windows environment, even if the UAC protection level si set to any option, attackers can abuse a few Windows applications to escalate privileges without triggering a UAC notification
+	- Techniques to Bypass UAC Using Metasploit
+		- msf > use exploit/windows/local/bypassuac
+		- 
